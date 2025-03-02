@@ -5,9 +5,12 @@ set tabstop=4 softtabstop=4
 set expandtab
 set smartindent
 set noswapfile
+set noundofile
 set incsearch
 set statusline+=%F
 set backspace=indent,eol,start
+
+syntax on
 
 inoremap jk <ESC>
 let mapleader = " "
